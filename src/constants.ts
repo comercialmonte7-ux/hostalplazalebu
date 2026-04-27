@@ -1,4 +1,4 @@
-import { MapPin, Star, Waves, Mountain, Camera, Utensils, ShieldAlert, Fish, Bike, Compass, Bed, BedDouble, Heart } from 'lucide-react';
+import { MapPin, Star, Waves, Mountain, Camera, Utensils, ShieldAlert, Fish, Bike, Compass, Bed, BedDouble, Heart, Home } from 'lucide-react';
 import heroJpg from './assets/hero-1.jpg';
 import habSingle from './assets/hab-single.jpg';
 import habDoble from './assets/hab-doble.jpg';
@@ -8,6 +8,9 @@ import habCuadruple from './assets/hab-cuadruple.jpg';
 import plazaLebu from './assets/plaza-lebu.jpg';
 import bath1 from './assets/bath-1.jpg';
 import bath2 from './assets/bath-2.jpg';
+import logoPng from './assets/logo.png';
+
+export { logoPng };
 
 export const ATTRACTIONS = [
   {

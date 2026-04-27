@@ -9,7 +9,7 @@ import { Concierge } from './components/Concierge';
 import { 
   ATTRACTIONS, GASTRONOMY, HOSTAL_SERVICES, 
   EMERGENCY_NUMBERS, TESTIMONIALS, MEDICAL_INFO,
-  FAQS, GALLERY, ROOM_TYPES
+  FAQS, GALLERY, ROOM_TYPES, logoPng
 } from './constants';
 
 const FAQItem = ({ question, answer }: any) => {
@@ -58,8 +58,9 @@ const Navbar = () => {
     <>
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled || isMenuOpen ? 'bg-white/90 backdrop-blur-md border-b border-gray-100 py-4 shadow-sm' : 'bg-transparent py-6'}`}>
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-          <div className={`font-serif font-bold text-xl md:text-2xl tracking-tight transition-colors ${isScrolled || isMenuOpen ? 'text-gray-900' : 'text-white'}`}>
-            Hostal Plaza <span className="text-orange-500">Lebu</span>
+          <div className={`flex items-center gap-3 font-serif font-bold text-xl md:text-2xl tracking-tight transition-colors ${isScrolled || isMenuOpen ? 'text-gray-900' : 'text-white'}`}>
+            <img src={logoPng} alt="Logo Hostal Plaza Lebu" className="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-orange-500 shadow-sm" />
+            <span>Hostal Plaza <span className="text-orange-500">Lebu</span></span>
           </div>
           
           {/* Desktop Nav */}
