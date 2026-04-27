@@ -193,6 +193,10 @@ export const FAQS = [
     answer: "No está incluido en la tarifa base, pero ofrecemos un exquisito servicio de desayuno continental por un valor adicional, previa coordinación al momento de tu llegada o reserva."
   },
   {
+    question: "¿Las habitaciones cuentan con baño privado?",
+    answer: "Para mantener nuestra esencia de casona acogedora, disponemos de amplios baños de uso compartido, los cuales cuentan con un riguroso protocolo de limpieza y desinfección diaria para asegurar siempre el máximo confort para nuestros huéspedes."
+  },
+  {
     question: "¿Aceptan mascotas?",
     answer: "Amamos a los animales, pero para garantizar la tranquilidad de todos nuestros huéspedes, solo aceptamos mascotas pequeñas bajo previa coordinación."
   }
