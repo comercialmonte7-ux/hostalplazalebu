@@ -166,7 +166,7 @@ export default function App() {
             transition={{ duration: 1 }}
           >
             <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-white font-bold leading-tight mb-4 drop-shadow-2xl">
-              Hostal Plaza Lebu
+              Hostal Plaza Lebu: <span className="block text-2xl md:text-4xl mt-2 font-light">Tu mejor alojamiento en Lebu</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-lg max-w-3xl font-light">
               Comodidad y tranquilidad en el corazón de Lebu, <br className="hidden md:block" /> el lugar perfecto para tu descanso.
@@ -198,7 +198,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row items-end justify-between mb-12 gap-6 text-center md:text-left">
             <div>
               <span className="text-orange-500 font-bold uppercase tracking-widest text-xs">Alojamiento</span>
-              <h2 className="font-serif text-5xl font-bold mt-4">Nuestras Habitaciones</h2>
+              <h2 className="font-serif text-5xl font-bold mt-4 text-gray-900 leading-tight italic">Hostal en Lebu: Nuestras Habitaciones</h2>
               <p className="text-gray-500 mt-2">Tarifas claras y comodidad garantizada en el centro.</p>
             </div>
           </div>
@@ -339,10 +339,18 @@ export default function App() {
                 <Star size={16} fill="currentColor" />
                 <span className="text-sm font-bold tracking-widest ml-2">ESTADÍA SUPERIOR</span>
               </div>
-              <h2 className="font-serif text-5xl font-bold mb-6 text-gray-900 leading-tight">Ubicación Perfecta, <br/>Comodidades Modernas.</h2>
-              <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                Ubicado estratégicamente frente a la Plaza de Armas, nuestro hostal combina la tradición lebuense con el confort contemporáneo. Disfruta de habitaciones diseñadas para el descanso después de un día de aventura.
+              <h2 className="font-serif text-5xl font-bold mb-6 text-gray-900 leading-tight">Alojamiento en Lebu: Ubicación Estratégica</h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                Ubicado estratégicamente frente a la Plaza de Armas, nuestro hostal es el punto de partida ideal para quienes buscan **dónde alojar en Lebu**. Combinamos la tradición local con el confort contemporáneo.
               </p>
+              
+              <div className="bg-orange-50 p-6 rounded-2xl mb-8 border border-orange-100">
+                <h4 className="font-bold text-orange-800 mb-2 text-sm uppercase tracking-wider">¿Cómo llegar a Lebu?</h4>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Lebu se ubica en la Provincia de Arauco, Región del Biobío. Puedes llegar en bus desde Concepción (aprox. 2.5 horas) o en vehículo particular por la Ruta 160. El **Hostal Plaza Lebu** se encuentra en el centro cívico, facilitando tu llegada.
+                </p>
+              </div>
+
               <div className="grid grid-cols-2 gap-4">
                 {HOSTAL_SERVICES.slice(0, 4).map((s, idx) => (
                   <div key={idx} className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-gray-100 shadow-sm">
@@ -374,7 +382,7 @@ export default function App() {
       <section id="atracciones" className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="font-serif text-5xl font-bold mb-4">Atracciones de Lebu</h2>
+            <h2 className="font-serif text-5xl font-bold mb-4">Qué hacer en Lebu: Atracciones</h2>
             <p className="text-gray-500">Lo mejor de nuestra ciudad seleccionado para ti.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -417,7 +425,7 @@ export default function App() {
       <section id="gastronomia" className="py-24 max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
           <div>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4 text-gray-900">Gastronomía Recomendada</h2>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4 text-gray-900">Dónde comer en Lebu: Gastronomía</h2>
             <p className="text-gray-500">Sabores que no te puedes perder durante tu visita a Lebu.</p>
           </div>
             <div className="flex flex-wrap gap-3 w-full md:w-auto mt-4 md:mt-0">
