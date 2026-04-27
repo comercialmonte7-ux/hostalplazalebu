@@ -174,7 +174,7 @@ export const ROOM_TYPES = [
     price: "$60.000", 
     icon: BedDouble, 
     image: habCuadruple,
-    description: "La mejor opción para grupos o familias numerosas. Amplio espacio, múltiples configuraciones de cama y todas las comodidades del hostal."
+    description: "La mejor opción para grupos o familias. Amplia habitación con 4 camas individuales, Smart TV, calefacción propia, hervidor eléctrico y dispensador de agua. Un espacio generoso con toda la calidez de la madera."
   },
 ];
 

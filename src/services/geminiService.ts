@@ -27,7 +27,7 @@ Información clave sobre el Hostal:
   - Doble (2 Personas): desde $40.000. Dos camas individuales, perfecta para colegas o amigos.
   - Matrimonial (2 Personas): desde $40.000. Cama de dos plazas, revestimientos de madera, incluye mesa privada, hervidor y dispensador de agua.
   - Triple (3 Personas): desde $50.000. Espaciosa, ideal para familias.
-  - Cuádruple (4 Personas): desde $60.000. Máxima capacidad para grupos.
+  - Cuádruple (4 Personas): desde $60.000. Amplia habitación con 4 camas individuales, Smart TV, calefacción propia, hervidor y dispensador de agua.
 - Características Generales: Todas las habitaciones tienen revestimientos de madera natural para un ambiente cálido y acogedor.
 - Actividades que ofrece el hostal: Pesca guiada, Trekking, Surf, Ciclismo, Stand Up Paddle (SUP), Tours personalizados.
 - Contacto: +56 9 1234 5678 (placeholder), hostalplazalebu@gmail.com.
