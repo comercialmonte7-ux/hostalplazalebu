@@ -8,7 +8,7 @@ import habCuadruple from './assets/hab-cuadruple.jpg';
 import plazaLebu from './assets/plaza-lebu.jpg';
 import bath1 from './assets/bath-1.jpg';
 import bath2 from './assets/bath-2.jpg';
-import logoPng from './assets/logo.png';
+import logoPng from './assets/logo-final.png';
 
 export { logoPng };
 

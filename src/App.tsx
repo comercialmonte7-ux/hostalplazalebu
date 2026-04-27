@@ -59,7 +59,7 @@ const Navbar = () => {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled || isMenuOpen ? 'bg-white/90 backdrop-blur-md border-b border-gray-100 py-4 shadow-sm' : 'bg-transparent py-6'}`}>
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <div className={`flex items-center gap-3 font-serif font-bold text-xl md:text-2xl tracking-tight transition-colors ${isScrolled || isMenuOpen ? 'text-gray-900' : 'text-white'}`}>
-            <img src={logoPng} alt="Logo Hostal Plaza Lebu" className="w-10 h-10 md:w-12 md:h-12 rounded-full" />
+            <img src={logoPng} alt="Logo Hostal Plaza Lebu" className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden object-cover" />
             <span>Hostal Plaza <span className="text-orange-500">Lebu</span></span>
           </div>
           
