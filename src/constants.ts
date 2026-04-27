@@ -136,11 +136,46 @@ export const TESTIMONIALS = [
 ];
 
 export const ROOM_TYPES = [
-  { name: "Single", capacity: "1 Persona", price: "$30.000", icon: Bed, image: habSingle },
-  { name: "Doble", capacity: "2 Personas", price: "$40.000", icon: BedDouble, image: habDoble },
-  { name: "Matrimonial", capacity: "2 Personas", price: "$40.000", icon: BedDouble, image: habMatrimonial },
-  { name: "Triple", capacity: "3 Personas", price: "$50.000", icon: BedDouble, image: habTriple },
-  { name: "Cuádruple", capacity: "4 Personas", price: "$60.000", icon: BedDouble, image: habCuadruple },
+  { 
+    name: "Single", 
+    capacity: "1 Persona", 
+    price: "$30.000", 
+    icon: Bed, 
+    image: habSingle,
+    description: "Ideal para viajeros solos o trabajadores. Ambiente tranquilo y funcional con escritorio y Wi-Fi de alta velocidad."
+  },
+  { 
+    name: "Doble", 
+    capacity: "2 Personas", 
+    price: "$40.000", 
+    icon: BedDouble, 
+    image: habDoble,
+    description: "Habitación con dos camas individuales. Perfecta para amigos o colegas que buscan comodidad y una ubicación céntrica."
+  },
+  { 
+    name: "Matrimonial", 
+    capacity: "2 Personas", 
+    price: "$40.000", 
+    icon: BedDouble, 
+    image: habMatrimonial,
+    description: "Nuestra opción más acogedora. Cuenta con cama de dos plazas, mesa de comedor/trabajo privada, hervidor eléctrico y dispensador de agua en la habitación. Revestimientos de madera natural para un descanso cálido."
+  },
+  { 
+    name: "Triple", 
+    capacity: "3 Personas", 
+    price: "$50.000", 
+    icon: BedDouble, 
+    image: habTriple,
+    description: "Espaciosa y versátil, ideal para familias pequeñas. Combinación de camas según necesidad, siempre con el toque rústico y acogedor de Lebu."
+  },
+  { 
+    name: "Cuádruple", 
+    capacity: "4 Personas", 
+    price: "$60.000", 
+    icon: BedDouble, 
+    image: habCuadruple,
+    description: "La mejor opción para grupos o familias numerosas. Amplio espacio, múltiples configuraciones de cama y todas las comodidades del hostal."
+  },
 ];
 
 export const MEDICAL_INFO = [

@@ -242,6 +242,7 @@ export default function App() {
                 <div className="p-6 md:p-8 flex flex-col items-center flex-grow">
                   <h3 className="font-serif text-xl font-bold mb-2 text-center">{room.name}</h3>
                   <p className="text-gray-400 text-xs uppercase tracking-widest mb-4">{room.capacity}</p>
+                  <p className="text-gray-600 text-sm text-center mb-6 leading-relaxed flex-grow">{room.description}</p>
                   <div className="mt-auto pt-4 border-t border-gray-50 w-full text-center">
                     <span className="text-gray-400 text-[10px] uppercase font-bold tracking-tighter">Valor por noche</span>
                     <div className="font-bold text-2xl text-orange-500 transition-colors">{room.price}</div>

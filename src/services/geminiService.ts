@@ -23,11 +23,12 @@ Información clave sobre el Hostal:
 - Calificación: Con altos estándares de calidad y servicio.
 - Comodidades: Habitaciones modernas, Wi-Fi, desayuno previa coordinación, áreas comunes acogedoras.
 - Habitaciones y Precios (Referenciales):
-  - Single (1 Persona): desde $30.000
-  - Doble (2 Personas): desde $40.000
-  - Matrimonial (2 Personas): desde $40.000
-  - Triple (3 Personas): desde $50.000
-  - Cuádruple (4 Personas): desde $60.000
+  - Single (1 Persona): desde $30.000. Ambiente tranquilo con escritorio y Wi-Fi, ideal para trabajo.
+  - Doble (2 Personas): desde $40.000. Dos camas individuales, perfecta para colegas o amigos.
+  - Matrimonial (2 Personas): desde $40.000. Cama de dos plazas, revestimientos de madera, incluye mesa privada, hervidor y dispensador de agua.
+  - Triple (3 Personas): desde $50.000. Espaciosa, ideal para familias.
+  - Cuádruple (4 Personas): desde $60.000. Máxima capacidad para grupos.
+- Características Generales: Todas las habitaciones tienen revestimientos de madera natural para un ambiente cálido y acogedor.
 - Actividades que ofrece el hostal: Pesca guiada, Trekking, Surf, Ciclismo, Stand Up Paddle (SUP), Tours personalizados.
 - Contacto: +56 9 1234 5678 (placeholder), hostalplazalebu@gmail.com.
 
