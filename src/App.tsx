@@ -172,6 +172,9 @@ export default function App() {
               Comodidad y tranquilidad en el corazón de Lebu, <br className="hidden md:block" /> el lugar perfecto para tu descanso.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
+              <a href="tel:+56995739562" className="bg-white text-orange-600 px-8 py-4 rounded-full font-bold hover:bg-orange-50 transition-all flex items-center gap-2 shadow-xl shadow-white/10">
+                <Phone size={18} /> +56 9 9573 9562
+              </a>
               <a href="#habitaciones" className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-600 transition-all flex items-center gap-2 shadow-xl shadow-orange-500/20">
                 Ver Habitaciones <ChevronRight size={18} />
               </a>
