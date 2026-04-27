@@ -190,7 +190,7 @@ export const FAQS = [
   },
   {
     question: "¿El desayuno está incluido?",
-    answer: "¡Por supuesto! Ofrecemos un desayuno previa cordinacion"
+    answer: "No está incluido en la tarifa base, pero ofrecemos un exquisito servicio de desayuno continental por un valor adicional, previa coordinación al momento de tu llegada o reserva."
   },
   {
     question: "¿Aceptan mascotas?",

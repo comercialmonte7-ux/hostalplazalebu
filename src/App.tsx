@@ -295,6 +295,9 @@ export default function App() {
               </p>
               <div className="flex flex-wrap gap-3">
                 <div className="flex items-center gap-2 px-4 py-2 bg-gray-50 rounded-xl text-xs font-bold text-gray-500 italic">
+                  <Utensils size={14} className="text-orange-500" /> Valor adicional
+                </div>
+                <div className="flex items-center gap-2 px-4 py-2 bg-gray-50 rounded-xl text-xs font-bold text-gray-500 italic">
                   <Utensils size={14} className="text-orange-500" /> Previa coordinación
                 </div>
                 <div className="flex items-center gap-2 px-4 py-2 bg-gray-50 rounded-xl text-xs font-bold text-gray-500 italic">
