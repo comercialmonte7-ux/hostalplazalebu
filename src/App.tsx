@@ -166,12 +166,9 @@ export default function App() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-white font-bold leading-tight mb-4 drop-shadow-2xl">
-              Hostal Plaza Lebu: <span className="block text-2xl md:text-4xl mt-2 font-light">Tu mejor alojamiento en Lebu</span>
+            <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-white font-bold leading-tight mb-10 drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] tracking-wide text-center">
+              Hostal Plaza <span className="text-orange-500">Lebu</span>
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-lg max-w-3xl font-light">
-              Comodidad y tranquilidad en el corazón de Lebu, <br className="hidden md:block" /> el lugar perfecto para tu descanso.
-            </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a href="tel:+56995739562" className="bg-white text-orange-600 px-8 py-4 rounded-full font-bold hover:bg-orange-50 transition-all flex items-center gap-2 shadow-xl shadow-white/10">
                 <Phone size={18} /> +56 9 9573 9562
