@@ -5,7 +5,6 @@ import {
   ChevronRight, Hotel, Utensils, Compass, Bus, Heart,
   Quote, Menu, X
 } from 'lucide-react';
-import { Concierge } from './components/Concierge';
 import { 
   ATTRACTIONS, GASTRONOMY, HOSTAL_SERVICES, 
   EMERGENCY_NUMBERS, TESTIMONIALS, MEDICAL_INFO,
@@ -201,26 +200,6 @@ export default function App() {
             </div>
           </div>
 
-          {/* Mobile Quick Prices */}
-          <div className="md:hidden mb-12 bg-gray-50 rounded-3xl p-6 border border-gray-200">
-            <h3 className="font-serif text-lg mb-6 text-gray-800 flex items-center gap-2">
-              <Star size={16} className="text-orange-500 fill-orange-500" /> Tarifas Disponibles
-            </h3>
-            <div className="space-y-4">
-              {ROOM_TYPES.map((room, idx) => (
-                <div key={idx} className="flex justify-between items-center pb-3 border-b border-gray-200 last:border-0 last:pb-0">
-                  <div className="flex items-center gap-3">
-                    <room.icon size={18} className="text-orange-500" />
-                    <div>
-                      <div className="font-bold text-gray-900 text-sm">{room.name}</div>
-                      <div className="text-[10px] text-gray-500 uppercase tracking-tight font-medium">{room.capacity}</div>
-                    </div>
-                  </div>
-                  <div className="text-orange-600 font-bold text-lg">{room.price}</div>
-                </div>
-              ))}
-            </div>
-          </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-8">
             {ROOM_TYPES.map((room, idx) => (
@@ -656,26 +635,18 @@ export default function App() {
 
       {/* Mobile Sticky Footer */}
       <div className="md:hidden fixed bottom-6 left-6 right-6 z-40">
-        <div className="bg-white/90 backdrop-blur-md border border-gray-100 p-3 rounded-2xl shadow-2xl flex gap-3">
+        <div className="bg-white/90 backdrop-blur-md border border-gray-100 p-3 rounded-2xl shadow-2xl flex">
           <a 
             href="https://wa.me/56995739562" 
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 bg-green-500 text-white py-3 rounded-xl font-bold text-center text-sm shadow-lg shadow-green-500/20"
+            className="flex-1 bg-green-500 text-white py-4 rounded-xl font-bold text-center text-sm shadow-lg shadow-green-500/20"
           >
-            WhatsApp
-          </a>
-          <a 
-            href="#habitaciones" 
-            className="flex-1 bg-orange-500 text-white py-3 rounded-xl font-bold text-center text-sm shadow-lg shadow-orange-500/20"
-          >
-            Habitaciones
+            Reservar por WhatsApp
           </a>
         </div>
       </div>
 
-      {/* Virtual Assistant */}
-      <Concierge />
     </div>
   );
 }
