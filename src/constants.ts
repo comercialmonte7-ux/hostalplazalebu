@@ -122,18 +122,18 @@ export const EMERGENCY_NUMBERS = [
 
 export const TESTIMONIALS = [
   {
-    name: "Ricardo M.",
-    text: "Una joya en Lebu. El hostal es impecable y la atención personalizada me hizo sentir como en casa. La vista desde el Cerro La Cruz es mágica.",
+    name: "Mariana G.",
+    text: "Excelente lugar, muy acogedor y atendido por sus propios dueños. Todo muy limpio y una ubicación privilegiada frente a la plaza de armas.",
     rating: 5
   },
   {
-    name: "Elena G.",
-    text: "El tour de pesca fue el punto más alto de mi viaje. El conserje sabía exactamente qué recomendar. Las habitaciones son súper cómodas.",
+    name: "Cristian H.",
+    text: "Muy buena atención y disposición. Las habitaciones son cómodas y el ambiente es tranquilo. Ideal para descansar en el centro de Lebu.",
     rating: 5
   },
   {
-    name: "Juan Pablo",
-    text: "Excelente ubicación frente a la plaza. Muy tranquilo y seguro. Definitivamente volveré el próximo verano para surfear en Millaneco.",
+    name: "Paola S.",
+    text: "Hostal impecable, muy bien ubicado y seguro. El desayuno es muy completo y el personal es muy amable. Totalmente recomendable.",
     rating: 5
   }
 ];
