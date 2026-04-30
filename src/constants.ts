@@ -56,7 +56,7 @@ export const ATTRACTIONS = [
   {
     name: "Plaza de Armas",
     rating: 5,
-    description: "El corazón de la ciudad, justo frente al hostal, rodeada de historia y vida local.",
+    description: "El corazón de la ciudad, justo frente a nuestro hostal en Lebu. Alojamiento cerca de la plaza, rodeado de historia y vida local.",
     icon: MapPin,
     color: "bg-rose-100",
     map: "https://maps.google.com/?q=Plaza+de+Armas+Lebu",
@@ -123,17 +123,17 @@ export const EMERGENCY_NUMBERS = [
 export const TESTIMONIALS = [
   {
     name: "Mariana G.",
-    text: "Excelente lugar, muy acogedor y atendido por sus propios dueños. Todo muy limpio y una ubicación privilegiada frente a la plaza de armas.",
+    text: "Excelente lugar, el mejor hostal en Lebu. Muy acogedor y atendido por sus propios dueños. Todo muy limpio y un alojamiento cerca de la plaza de armas inmejorable.",
     rating: 5
   },
   {
     name: "Cristian H.",
-    text: "Muy buena atención y disposición. Las habitaciones son cómodas y el ambiente es tranquilo. Ideal para descansar en el centro de Lebu.",
+    text: "Muy buena atención y disposición. Habitaciones con WiFi rápido y un ambiente tranquilo. Un hostal cómodo y familiar, ideal para alojamiento en Lebu, en pleno centro.",
     rating: 5
   },
   {
     name: "Paola S.",
-    text: "Hostal impecable, muy bien ubicado y seguro. El desayuno es muy completo y el personal es muy amable. Totalmente recomendable.",
+    text: "Hostal impecable, hostal céntrico en Lebu y muy seguro. El desayuno es muy completo y el personal es muy amable. Hostal económico en Lebu y totalmente recomendable para turismo.",
     rating: 5
   }
 ];
@@ -145,7 +145,7 @@ export const ROOM_TYPES = [
     price: "$30.000", 
     icon: Bed, 
     image: habSingle,
-    description: "Ideal para viajeros solos o trabajadores. Ambiente tranquilo y funcional con escritorio y Wi-Fi de alta velocidad."
+    description: "Ideal para viajeros solos o trabajadores que buscan donde alojarse en Lebu. Ambiente tranquilo y funcional con escritorio y habitación con Wi-Fi de alta velocidad."
   },
   { 
     name: "Doble", 
@@ -153,7 +153,7 @@ export const ROOM_TYPES = [
     price: "$40.000", 
     icon: BedDouble, 
     image: habDoble,
-    description: "Habitación con dos camas individuales. Perfecta para amigos o colegas que buscan comodidad y una ubicación céntrica."
+    description: "Habitación con dos camas individuales en nuestro hostal céntrico en Lebu. Perfecta para amigos o colegas que buscan alojamiento cómodo y económico."
   },
   { 
     name: "Matrimonial", 
@@ -161,7 +161,7 @@ export const ROOM_TYPES = [
     price: "$40.000", 
     icon: BedDouble, 
     image: habMatrimonial,
-    description: "Nuestra opción más acogedora. Cuenta con cama de dos plazas, mesa de comedor/trabajo privada, hervidor eléctrico y dispensador de agua en la habitación. Revestimientos de madera natural para un descanso cálido."
+    description: "Nuestra opción más acogedora de alojamiento en Lebu. Cuenta con cama de dos plazas, mesa de comedor/trabajo privada, hervidor eléctrico y dispensador de agua en la habitación. Revestimientos de madera natural para un descanso cálido en el mejor hostal de Lebu."
   },
   { 
     name: "Triple", 
@@ -169,7 +169,7 @@ export const ROOM_TYPES = [
     price: "$50.000", 
     icon: BedDouble, 
     image: habTriple,
-    description: "Espaciosa y versátil, ideal para familias pequeñas. Combinación de camas según necesidad, siempre con el toque rústico y acogedor de Lebu."
+    description: "Hostal familiar en Lebu: espaciosa y versátil, ideal para familias pequeñas que buscan turismo lebu alojamiento. Combinación de camas según necesidad, siempre con el toque rústico y acogedor."
   },
   { 
     name: "Cuádruple", 
@@ -177,7 +177,7 @@ export const ROOM_TYPES = [
     price: "$60.000", 
     icon: BedDouble, 
     image: habCuadruple,
-    description: "La mejor opción para grupos o familias. Amplia habitación con 4 camas individuales, Smart TV, calefacción propia, hervidor eléctrico y dispensador de agua. Un espacio generoso con toda la calidez de la madera."
+    description: "La mejor opción para grupos o familias buscando hotel en Lebu. Amplia habitación con 4 camas individuales, Smart TV, calefacción propia, hervidor eléctrico y dispensador de agua. Alojamiento con estacionamiento incluido."
   },
 ];
 
@@ -188,20 +188,20 @@ export const MEDICAL_INFO = [
 
 export const FAQS = [
   {
-    question: "¿Tienen estacionamiento?",
-    answer: "Sí, contamos con estacionamiento privado y seguro para nuestros huéspedes."
+    question: "¿Tienen estacionamiento en el hostal?",
+    answer: "Sí, contamos con alojamiento con estacionamiento privado y seguro para nuestros huéspedes. Una ventaja clave de nuestro hostal céntrico en Lebu."
   },
   {
-    question: "¿El desayuno está incluido?",
-    answer: "No está incluido en la tarifa base, pero ofrecemos un exquisito servicio de desayuno continental por un valor adicional, previa coordinación al momento de tu llegada o reserva."
+    question: "¿Es un hostal con desayuno incluido?",
+    answer: "El desayuno no está incluido en la tarifa base, pero nuestro hostal en Lebu ofrece un exquisito servicio de desayuno continental por un valor adicional, previa coordinación al momento de tu llegada o reserva. Productos locales y café recién preparado."
   },
   {
-    question: "¿Las habitaciones cuentan con baño privado?",
-    answer: "Para mantener nuestra esencia de casona acogedora, disponemos de amplios baños de uso compartido, los cuales cuentan con un riguroso protocolo de limpieza y desinfección diaria para asegurar siempre el máximo confort para nuestros huéspedes."
+    question: "¿Las habitaciones con WiFi cuentan con baño privado?",
+    answer: "Para mantener nuestra esencia de hostal cómodo y familiar en Lebu, disponemos de amplios baños de uso compartido con un riguroso protocolo de limpieza y desinfección diaria. Todas las habitaciones cuentan con WiFi de alta velocidad."
   },
   {
-    question: "¿Aceptan mascotas?",
-    answer: "Amamos a los animales, pero para garantizar la tranquilidad de todos nuestros huéspedes, solo aceptamos mascotas pequeñas bajo previa coordinación."
+    question: "¿Aceptan mascotas en el hostal?",
+    answer: "Amamos a los animales. Nuestro hostal económico Lebu acepta mascotas pequeñas bajo previa coordinación, manteniendo la tranquilidad de todos los huéspedes. Ideal para turismo en Lebu con tu mascota."
   }
 ];
 
