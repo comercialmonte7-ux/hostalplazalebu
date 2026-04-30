@@ -11,6 +11,12 @@ import {
   FAQS, GALLERY, ROOM_TYPES, logoPng
 } from './constants';
 
+const trackContactConversion = () => {
+  if (typeof window !== 'undefined' && (window as any).gtag) {
+    (window as any).gtag('event', 'ads_conversion_Contacto_1', {});
+  }
+};
+
 const FAQItem = ({ question, answer }: any) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -76,6 +82,7 @@ const Navbar = () => {
               href="https://wa.me/56995739562"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={trackContactConversion}
               className="hidden sm:block bg-orange-500 text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition-all shadow-lg shadow-orange-500/20 cursor-pointer"
             >
               Reservar
@@ -111,6 +118,7 @@ const Navbar = () => {
                 href="https://wa.me/56995739562"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={trackContactConversion}
                 className="w-full bg-orange-500 text-white py-4 rounded-2xl font-bold mt-4 text-center"
               >
                 Reservar Ahora
@@ -172,10 +180,10 @@ export default function App() {
               El mejor hostal en Lebu — Alojamiento céntrico, cómodo y familiar frente a la Plaza de Armas
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <a href="https://wa.me/56995739562" target="_blank" rel="noopener noreferrer" className="bg-orange-500 text-white px-10 py-5 rounded-full text-xl font-bold hover:bg-orange-600 transition-all flex items-center gap-3 shadow-2xl shadow-orange-500/30">
+              <a href="https://wa.me/56995739562" target="_blank" rel="noopener noreferrer" onClick={trackContactConversion} className="bg-orange-500 text-white px-10 py-5 rounded-full text-xl font-bold hover:bg-orange-600 transition-all flex items-center gap-3 shadow-2xl shadow-orange-500/30">
                 Reservar Hostal Lebu
               </a>
-              <a href="tel:+56995739562" className="bg-white/10 backdrop-blur-md text-white border border-white/20 px-10 py-5 rounded-full text-xl font-bold hover:bg-white/20 transition-all flex items-center gap-3">
+              <a href="tel:+56995739562" onClick={trackContactConversion} className="bg-white/10 backdrop-blur-md text-white border border-white/20 px-10 py-5 rounded-full text-xl font-bold hover:bg-white/20 transition-all flex items-center gap-3">
                 <Phone size={24} /> +56 9 9573 9562
               </a>
             </div>
@@ -243,7 +251,7 @@ export default function App() {
               <h2 className="font-serif text-4xl md:text-5xl font-bold mt-4">Servicios del Hostal Plaza Lebu</h2>
               <p className="text-gray-500 mt-2">Hostal con desayuno incluido, estacionamiento privado y experiencias exclusivas para turismo en Lebu.</p>
             </div>
-            <a href="https://wa.me/56995739562" className="bg-[#151619] text-white px-8 py-4 rounded-full font-bold hover:bg-orange-500 transition-all flex items-center gap-2">
+            <a href="https://wa.me/56995739562" target="_blank" rel="noopener noreferrer" onClick={trackContactConversion} className="bg-[#151619] text-white px-8 py-4 rounded-full font-bold hover:bg-orange-500 transition-all flex items-center gap-2">
               Consultar Tarifas <Compass size={18} />
             </a>
           </div>
@@ -640,6 +648,7 @@ export default function App() {
             href="https://wa.me/56995739562" 
             target="_blank"
             rel="noopener noreferrer"
+            onClick={trackContactConversion}
             className="flex-1 bg-green-500 text-white py-4 rounded-xl font-bold text-center text-sm shadow-lg shadow-green-500/20"
           >
             Reservar por WhatsApp
@@ -652,6 +661,7 @@ export default function App() {
         href="https://wa.me/56995739562" 
         target="_blank" 
         rel="noopener noreferrer"
+        onClick={trackContactConversion}
         className="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center justify-center group"
         aria-label="Chat on WhatsApp"
       >
