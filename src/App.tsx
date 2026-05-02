@@ -203,7 +203,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row items-end justify-between mb-12 gap-6 text-center md:text-left">
             <div>
               <span className="text-orange-500 font-bold uppercase tracking-widest text-xs">Alojamiento en Lebu</span>
-              <h2 className="font-serif text-5xl font-bold mt-4 text-gray-900 leading-tight italic">Habitaciones con WiFi en nuestro Hostal en Lebu</h2>
+              <h2 className="font-serif text-5xl font-bold mt-4 text-gray-900 leading-tight italic">Habitaciones</h2>
               <p className="text-gray-500 mt-2">Hostal económico en Lebu con tarifas claras, estacionamiento y calefacción incluidos.</p>
             </div>
           </div>
@@ -277,9 +277,9 @@ export default function App() {
             <div className="absolute top-0 right-0 w-64 h-64 bg-orange-100 rounded-full blur-3xl -z-10 opacity-50 -translate-y-1/2 translate-x-1/2" />
             <div className="lg:w-1/2">
               <div className="bg-orange-500 text-white text-[10px] uppercase font-bold tracking-[0.2em] px-4 py-1 rounded-full w-fit mb-6">Recomendado</div>
-              <h3 className="font-serif text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">Hostal con Desayuno Incluido — Sabores Locales</h3>
+              <h3 className="font-serif text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">Opciones de Desayuno</h3>
               <p className="text-gray-600 mb-8 text-lg">
-                Comienza tu día con el aroma del café recién tostado y productos artesanales de la zona. Nuestro hostal en Lebu ofrece desayuno continental como el punto de partida ideal para tus aventuras de turismo en Lebu.
+                Comienza tu día con el aroma del café recién tostado y productos artesanales de la zona. Ofrecemos exquisitos desayunos con valor adicional, el punto de partida ideal para tus aventuras en Lebu.
               </p>
               <div className="flex flex-wrap gap-3">
                 <div className="flex items-center gap-2 px-4 py-2 bg-gray-50 rounded-xl text-xs font-bold text-gray-500 italic">
